@@ -1,0 +1,4 @@
+fontawesome-fonts
+fontawesome-fonts-web
+firefox
+arandr
