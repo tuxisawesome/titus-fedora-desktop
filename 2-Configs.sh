@@ -14,7 +14,7 @@ mv -n .* ~
 cd rpm-packages
 sudo dnf -y install ocs-url*.rpm
 cd ../../
-sudo bash /home/*/titus-fedora-desktop/2.1-sudo.sh
+sudo bash /home/*/titus-fedora-desktop/2.1-Sudo.sh
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/FiraCode.zip
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/Meslo.zip
 mkdir ~/.fonts

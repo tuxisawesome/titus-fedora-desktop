@@ -1,0 +1,11 @@
+#!/bin/bash
+echo "WalterOS Downloader"
+echo "Downloading Git, Curl"
+
+dnf -y install git Curl
+
+echo "Downloading..."
+
+git clone https://github.com/tuxisawesome/titus-fedora-desktop/
+cd titus-fedora-desktop
+bash start.sh
