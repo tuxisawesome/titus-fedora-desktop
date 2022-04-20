@@ -1,2 +1,2 @@
 echo "Installing extra packages from file..."
-dnf -y install $(cat packages.txt)
+dnf -y install fontawesome-fonts fontawesome-fonts-web firefox arandr
