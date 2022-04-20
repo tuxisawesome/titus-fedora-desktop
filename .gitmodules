@@ -1,0 +1,3 @@
+[submodule "castle-dotfiles"]
+	path = castle-dotfiles
+	url = https://github.com/tuxisawesome/titus-dotfiles-revised
