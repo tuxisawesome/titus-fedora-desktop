@@ -1,10 +1,10 @@
 #!/bin/bash
 echo "Chris Titus' Fedora Desktop"
 echo "Walter Brobson, 2022"
-while getopts n:nr: flag
+while getopts m:nr: flag
 do
     case "${flag}" in
-        n) normal=${OPTARG};;
+        m) normal=${OPTARG};;
         nr) noreboot=${OPTARG};;
     esac
 done
@@ -22,7 +22,7 @@ if [[ $normal == "cttconf" ]]; then
     bash 2-Configs.sh -ctt;
 fi
 
-if [[ $normal == "yes" ]]; then
+if [[ $normal == "normal" ]]; then
     bash 2-Configs.sh -nctt;
 fi
 
