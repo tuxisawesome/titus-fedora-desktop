@@ -30,22 +30,22 @@ fi
 if [ "$1" == "-ctt" ]; then
     git clone https://github.com/christitustech/fedora-titus
     cd fedora-titus
-    mkdir ~/.config
-    cp bg.jpg ~/.config
-    mv dotconfig/* ~/.config/
+    mkdir ~/.config -v
+    cp bg.jpg ~/.config -v
+    mv dotconfig/* ~/.config/ -v
     # More packages
     echo "Installing more packages..."
     sudo dnf -y install bspwm dconf-editor kitty picom polybar rofi sxhkd thunar nitrogen
     # Installing ocs-url
-    mv -n .* ~
+    mv -n .* ~ -v
     cd rpm-packages
     sudo dnf -y install ocs-url*.rpm
     cd ../../
     echo "Installing FiraCode and Meslo nerd fonts."
     wget https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/FiraCode.zip
     wget https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/Meslo.zip
-    mkdir ~/.fonts
-    mv *.zip ~/.fonts/
+    mkdir ~/.fonts -v
+    mv *.zip ~/.fonts/ -v
     cd ~/.fonts/
     unzip FiraCode.zip
     unzip Meslo.zip
