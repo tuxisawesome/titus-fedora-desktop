@@ -8,4 +8,4 @@ echo "Downloading..."
 
 git clone https://github.com/tuxisawesome/titus-fedora-desktop/
 cd titus-fedora-desktop
-bash start.sh
+bash start.sh -n yes
