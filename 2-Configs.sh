@@ -41,8 +41,6 @@ if [ "$1" == "-ctt" ]; then
     cd rpm-packages
     sudo dnf -y install ocs-url*.rpm
     cd ../../
-    echo "Installing SDDM"
-    sudo bash /home/*/titus-fedora-desktop/2.1-Sudo.sh
     echo "Installing FiraCode and Meslo nerd fonts."
     wget https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/FiraCode.zip
     wget https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/Meslo.zip
