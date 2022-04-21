@@ -16,7 +16,11 @@ echo ""
 echo "5 seconds to exit, if nessesary..."
 echo ""
 sleep 5
-
+if $normal == "yes"
+then
+    echo "If statement working";
+fi
+exits
 bash 1-Core-packages.sh
 
 if $normal == "cttconf"
