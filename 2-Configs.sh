@@ -2,7 +2,7 @@
 # 2 - Configs.sh
 echo "Installing configs..."
 if [ "$1" == "-nctt" ]; then
-    cd titus-fedora-desktop
+    cd titus-dotfiles-revised
     mkdir ~/.config
     cp bg.jpg ~/.config
     mv dotconfig/* ~/.config/
