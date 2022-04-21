@@ -14,7 +14,7 @@ echo "Mode: $normal"
 echo "No Reboot: $noreboot"
 echo ""
 echo "5 seconds to exit, if nessesary..."
-
+echo ""
 sleep 5
 
 bash 1-Core-packages.sh
