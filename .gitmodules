@@ -1,0 +1,3 @@
+[submodule "titus-dotfiles-revised"]
+	path = titus-dotfiles-revised
+	url = https://github.com/tuxisawesome/titus-dotfiles-revised
