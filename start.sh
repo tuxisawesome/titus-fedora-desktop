@@ -19,17 +19,17 @@ sleep 5
 
 bash 1-Core-packages.sh
 
-if $normal = "cttconf"
+if $normal == "cttconf"
 then
     bash 2-Configs.sh -ctt;
 fi
-if $normal = "yes"
+if $normal == "yes"
 then
     bash 2-Configs.sh -nctt;
 fi
 
 bash 3-Other-packages.sh
-if $noreboot = "y"
+if $noreboot == "y"
 then
     bash 4.1-Cleaning-up-noreboot.sh && exit;
 fi
